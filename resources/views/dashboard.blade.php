@@ -13,19 +13,20 @@
             </select>
         </div>
         <div class="row kerdes" id="kerdes">
-            <div class="col kerdesElem" id="kerdesElem">
-            </div>
-
-        </div>
-        <div class="row valasz" id="valasz" >
-            <div class="row valaszElem" id="valaszElem">
-                <div class=" col v1">
+           {{--  <div class="col kerdesElem" id="">
+            </div> --}}
+            <div class="row valaszElem">
+                <div class=" col kerdes" style="background-color: grey">
                 </div>
-                <div class="col v2">
+                <div class="w-100"></div>
+                <div class="col v1" id="valasz">
                 </div>
-                <div class="col v3">
+                <div class="col v2" id="valasz">
                 </div>
-                <div class="col v4">
+                <div class="w-100"></div>
+                <div class="col v3" id="valasz">
+                </div>
+                <div class="col v4" id="valasz">
                 </div>
             </div>
         </div>

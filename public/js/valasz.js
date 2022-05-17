@@ -3,7 +3,7 @@ $(function(){
     let eleresiUt = "/api/tesztek";
 
     function valaszLista(tomb) {
-        const szuloElem = $(".valasz");
+        const szuloElem = $(".kerdes");
         const sablonElem = $(".valaszElem");
 
         tomb.forEach(function (adat) {

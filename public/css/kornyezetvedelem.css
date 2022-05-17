@@ -6,22 +6,24 @@ body {
 
 }
 
+.col {
+    background-color: rgb(211, 233, 253);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+/* .valaszElem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
 .kerdes {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
     margin: 10px;
     padding: 10px;
 
 }
 
-.kerdesElem {
-    background-color: gray;
-    padding: 5px;
-    margin: 10px;
-}
-
-.valaszElem {
-    background-color: rgb(211, 233, 253);
-    padding: 5px;
-    margin: 10px;
-}
