@@ -14,10 +14,11 @@ body {
 
 }
 
-/* .valaszElem {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
+.kategoria{
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+}
 
 .kerdes {
     display: grid;
